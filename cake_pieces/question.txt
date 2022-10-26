@@ -1,0 +1,30 @@
+Nimal is throwing a party for his N friends. There is a cake store nearby, and he wants to buy cakes for his friends. Each cake consists of 4 pieces. There are N friends, and each friend needs exactly X pieces. Find the minimum number of cakes they should order to satisfy their appetite.
+
+Input Format
+
+The first input line will contain a single integer T, denoting the number of test cases. Each test case consists of two integers, N and X, the number of friends and the number of pieces each friend wants, respectively.
+
+Constraints
+
+0< T ≤ 100 0< N,X ≤ 10
+
+Output Format
+
+For each test case, output the minimum number of cakes required.
+
+Sample Input 0
+
+4
+1 5
+2 6
+4 3
+3 5
+Sample Output 0
+
+2
+3
+3
+4
+Explanation 0
+
+Test case 1: There is only one friend who requires five pieces. If he orders one cake, he will get only four pieces. Thus, at least two cakes should be ordered with the necessary number of pieces. Test case 2: Two friends require six pieces each. Thus, a total of 12 pieces are needed. To get 12 pieces, they should order three cakes. Test case 3: Four friends require three pieces each. Thus, a total of 12 pieces are needed. To get 12 pieces, they should order three cakes. Test case 4: Three friends require five pieces each. Thus, a total of 15 pieces are needed. To get 15 pieces, they should order at least four cakes.
